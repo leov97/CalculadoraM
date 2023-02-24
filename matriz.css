@@ -1,0 +1,22 @@
+ *{
+    box-sizing: border-box;
+}
+body{
+background-color: grey;
+margin: 0%;
+}
+
+#content{
+border: 3px solid seashell;
+max-width: 900px;
+margin: auto;
+margin-top: 50px
+
+}
+
+#tab{
+    border: 3px solid seashell;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px
+}

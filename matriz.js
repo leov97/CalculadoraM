@@ -41,25 +41,36 @@ class calcuos{
 
     }
 //---------------------------------------------
-    alcular(){
+    alcul(){
     }
 }
 
 function myMatrix() {
 
 
-
+tab.innerHTML="suma de matrices"
 const myclass= new calcuos()
 myclass.dat()
 myclass.tab()
 const mycla= new calcuos()
 mycla.dat()
 mycla.tab()
-//tab.innerHTML=""
+
     const calcu=document.createElement("input")
     calcu.type="submit"
     calcu.name="calcu"
+    calcu.id="calculo"
     tab.appendChild(calcu)
 
+const calculo = document.getElementById("calculo");
+calculo.addEventListener("click", function(){
+
+    console.log("hola como estas ")
 }
+)
+
+}
+
+
+
 

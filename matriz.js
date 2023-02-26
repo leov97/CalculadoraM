@@ -77,23 +77,10 @@ function myMatrix() {
     const calculo = document.getElementById("calculo");
     calculo.addEventListener("click", function(){
         //llamo la tabla con id= "id1"
-        const tablaId1 = document.getElementById("id1");
-        const matrizValores = [];
-        
-        for (const tr of tablaId1.querySelectorAll('tr')) {
-          const filaValores = [];
-          for (const td of tr.querySelectorAll('td')) {
-            const input = td.querySelector('input');
-            if (input) {
-              filaValores.push(input.value);
-            }
-          }
-          if (filaValores.length > 0) {
-            matrizValores.push(filaValores);
-          }
-        }
-        
-        console.log(matrizValores);
+        const tablaId1=parseInt(document.getElementById("id1").value)
+        const valueTabla1=[]
+
+            
 }        /*const sumaMatrix=document.createElement("table")
         const filas=sumaMatrix.querySelector("tr")
         const valores=[]*/
